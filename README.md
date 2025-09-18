@@ -1,1 +1,2 @@
 # Porta
+-ando checando, gracias.

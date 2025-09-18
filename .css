@@ -1,0 +1,115 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f7;
+    color: #333;
+}
+
+/* Encabezados */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #003366;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Secciones */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Párrafo destacado */
+.intro {
+    background-color: #e6f0ff;
+    padding: 10px;
+    border-left: 4px solid #003366;
+    font-style: italic;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0055aa;
+}
+
+/* Personaje */
+.personaje img {
+    float: right;
+    width: 250px;
+    margin: 10px;
+    border: 3px solid #003366;
+    border-radius: 8px;
+}
+
+.personaje p {
+    text-align: justify;
+    margin-right: 270px; /* para que no se monte con la imagen */
+}
+
+.personaje a {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #003366;
+    text-decoration: none;
+}
+
+.personaje a:hover {
+    text-decoration: underline;
+}
